@@ -9,7 +9,7 @@ function App() {
         <a
           className="App-link"
           href="https://example.com"
-          target="_blank
+          target="_blank"
           rel="noopener noreferrer"
         >
           Learn Jenkins on Udemy
