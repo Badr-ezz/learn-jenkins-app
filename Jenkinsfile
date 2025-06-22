@@ -20,7 +20,7 @@ pipeline {
                 ls -la
                 '''                
             }
-                
+
         }
         stage('Test'){
             agent {
@@ -40,6 +40,7 @@ pipeline {
 
     post {
         always {
+            sh 'echo "test Report " '
             junit 'test-results/junit.xml' // show the test report  
         }
     }
